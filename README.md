@@ -25,7 +25,7 @@ Every file is a fingerprint of presence.
 ## 📓 Journals
 
 - [2025-05-17: Sick, but started hashing](journal/2025-05-17.md)
-- [2025-5-18: Still sick, purged the whole repo (--force lol)](journal/2025-05-18.md)
+- [2025-05-18: Still sick, purged the whole repo (--force lol)](journal/2025-05-18.md)
 
 ---
 
