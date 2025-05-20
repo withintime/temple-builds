@@ -26,9 +26,12 @@ Every file is a fingerprint of presence.
 
 - [2025-05-17: Sick, but started hashing](journal/2025-05-17.md)
 - [2025-05-18: Still sick, purged the whole repo (--force lol)](journal/2025-05-18.md)
+- [2025-05-19: Learned how PoW works, how to link blocks, realised I can go only so far without going back to basics](journal/2025-05-19.md)
+- [2025-05-20: Started actually learning python from ground up and created second script for my dev environment](journal/2025-05-20.md)
 
 ---
 
 ## 🧪 Projects (WIP)
 
+- `/projects/shrine-foundations` - learning Python by hand
 - `/projects/blockchain` – toy blockchain in Python
