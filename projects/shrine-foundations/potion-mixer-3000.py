@@ -1,12 +1,14 @@
 # Potion Mixer 3000
 import random
 
+# resources to start
 mana_stock = 1000
 essence_stock = 800
 souls_stock = 3
 
 print('Welcome to potion mixer 3000!')
 
+# casting method
 print('Choose your casting method... (Air / Earth / Fire)')
 
 casting = input().lower()
@@ -17,6 +19,7 @@ if casting not in {'air', 'earth', 'fire'}:
 else:
     print(f"You have chosen the path of {casting.capitalize()}.")
 
+# ingredients input
 print('How much mana do you want to put in?')
 mana = float(input())
 if mana > mana_stock:
@@ -39,6 +42,7 @@ if souls > souls_stock:
 else:
     print(f"You put in {souls}, you got {souls_stock - souls} left.")
 
+# stats calculation
 print('Calculating potion power and cost...')
 power = (mana ** 2 + essence * 2.5) * 3 - souls / 1.2
 cost = (mana * essence) * 3 + souls * 10
@@ -53,6 +57,7 @@ if random.randint(1,10) < 9:
 else:
     print(f"You brewed a critical potion! Congrats! \nYour potion is of {power * 2} power and costs {cost/10}")
 
+# naming
 name = input("What shall this potion be called, wizard?\n")
 print('~~~ bubbling... bubbling... ~~~')
 print('(    )')
@@ -60,6 +65,7 @@ print(' )  (')
 print('(____)')
 print(f"{name} has been forged with {power} power...")
 
+# potion rarity
 if power > 1500:
     print("🌟 Legendary Potion!")
 elif power > 500:
@@ -67,6 +73,7 @@ elif power > 500:
 else:
     print("🧪 Common potion.")
 
+# selling logic
 print('Do you want to sell your potion? Y / N')
 decision = input().lower()
 if decision not in {'y', 'yes', 'n', 'no'}:
