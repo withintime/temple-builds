@@ -34,6 +34,7 @@ def numberedMenu(options):
                 return index # return index for future reference - starting new functions for example
         print("Invalid input. Please enter a number from the list.")        
 
+# menu text and corresponding functions
 mainMenu = [
     ("Start Journal", startJournal),
     ("Add or Change Category", changeCategory),
