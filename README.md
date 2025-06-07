@@ -33,5 +33,6 @@ Every file is a fingerprint of presence.
 
 ## 🧪 Projects (WIP)
 
+- `/projects/Jurner` - timer and journaling tool built for fun
 - `/projects/shrine-foundations` - learning Python by hand
 - `/projects/blockchain` – toy blockchain in Python
